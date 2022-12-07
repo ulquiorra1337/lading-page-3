@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body
+{
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 100;
+    background: rgb(0,48,65);
+    background: linear-gradient(0deg, rgba(0,48,65,1) 0%, rgba(0,14,52,1) 50%);
+}
+
+.header
+{
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 80px;
+}
+
+.logo
+{
+    
+    display:flex;
+    flex-direction: row;
+    margin-right: 100px;
+    font-size: 40px;
+    color: white;
+}
+
+.contact
+{
+    display:flex;
+    flex-direction: row;
+    margin-left: 400px;
+    color: white;
+    gap: 20px;
+}
+
+.contact img
+{
+    max-height: 25px;
+}
+
+.first
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: center;
+    gap: 350px;
+}
+
+.first img
+{
+    max-height: 400px;
+}
+
+.containter-first
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.containter-first h1
+{
+    font-size: 50px;
+}
+
+.second
+{
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;  
+    text-align: center;
+}
+
+.second h3
+{
+  font-size: 30px;  
+}
+
+.third
+{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.third h1
+{
+   padding-bottom: 20px;
+}
+
+.third h2
+{
+   padding-bottom: 20px;
+}
+
+.third h3
+{
+   padding-bottom: 20px;
+}
+
+.footer
+{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.footer button
+{
+    background-color: #1f6fa5; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    min-width: 300px;
+}
